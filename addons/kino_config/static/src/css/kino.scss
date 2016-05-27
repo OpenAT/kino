@@ -1,0 +1,27 @@
+// GLOBAL VARIABLES
+$kinoblue: #0050a0;
+
+.btn-primary {
+  background: $kinoblue;
+  background-color: $kinoblue;
+  border: none;
+
+  transition: background-color .3s;
+}
+
+.btn-primary:hover {
+    background: $kinoblue;
+  }
+.btn-primary:active {
+    background-color: $kinoblue;
+  }
+.btn-primary:visited {
+    background-color: $kinoblue;
+  }
+// Import Files
+@import "fontfaces";
+@import "website";
+@import "website_checkoutform";
+@import "website_menu";
+@import "donationpage";
+@import "shopgrid";

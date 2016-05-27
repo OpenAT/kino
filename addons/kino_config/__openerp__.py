@@ -36,7 +36,12 @@ Addon for all customer specific modifications e.g.:
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
+        'sale',
+        'portal_sale',
+        'website',
+        'website_sale_donate',
     ],
     'data': [
+        'views/templates.xml',
     ],
 }

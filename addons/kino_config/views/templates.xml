@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <!-- Load custom CSS and JS for the website -->
+    <template id="kino_assets_frontend" inherit_id="website_forum.assets_frontend" name="kino css">
+        <!-- <xpath expr='//script[@src="/website_forum/static/src/js/website_forum.js"]' position="after"> -->
+        <xpath expr='//script[@src="https://www.google.com/recaptcha/api.js"]' position="after">
+
+        <!-- <xpath expr="." position="inside">-->
+
+            <link rel="stylesheet" href='/kino_config/static/src/css/kino.css'/>
+        </xpath>
+    </template>
+        <template id="kino_product_grid_description" inherit_id="website_sale.products_description">
+            <xpath expr="//div[@class='text-info oe_subdescription']" position="replace">
+               <div class="text-info oe_subdescription" contenteditable="false">
+                 <div itemprop="description" t-field="product.description">
+                 </div>
+               </div>
+            </xpath>
+        </template>
+
+    <!-- adding Google webmaster tools site verifivation id -->
+        <!--
+        <template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">
+            <xpath expr="//head//title" position="after">
+                <meta name="google-site-verification" content="google1234567890.html"/>
+            </xpath>
+        </template>
+        -->
+    </data>
+</openerp>
