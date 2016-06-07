@@ -41,6 +41,12 @@ p {
   line-height: 1.518em;
   margin: 0 0 0.75em 0; }
 
+.container {
+  width: 1020px;
+  max-width: 100%;
+  min-width: 768px;
+  margin: 0 auto; }
+
 .ppt_opc #wsd-checkout-box img.product-image {
   width: auto !important; }
 
