@@ -54,6 +54,14 @@ p {
   max-width: 800px;
   margin: 0px auto; }
 
+.wsd_opc_payment, .wsd_opc_delivery {
+  max-width: 800px;
+  margin: auto; }
+
+.row #wsd_checkout_form .row, #wsd_checkout_form .row, .product_price.mt16, .payment_interval_ids {
+  max-width: 800px;
+  margin: 0px auto !important; }
+
 header .navbar-default {
   background-color: transparent;
   border-color: transparent; }
