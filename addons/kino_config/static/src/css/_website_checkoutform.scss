@@ -1,3 +1,8 @@
 .ppt_opc #wsd-checkout-box img.product-image {
   width: auto !important;
 }
+
+.row #wsd_checkout_form .row, #wsd_checkout_form .row, .product_price.mt16, .payment_interval_ids {
+  max-width: 800px;
+  margin: 0px auto;
+}
