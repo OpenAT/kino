@@ -47,6 +47,12 @@ p {
   min-width: 768px;
   margin: 0 auto; }
 
+div.carousel div.carousel-content {
+  background: transparent; }
+  div.carousel div.carousel-content a {
+    color: white;
+    text-decoration: underline; }
+
 .ppt_opc #wsd-checkout-box img.product-image {
   width: auto !important; }
 

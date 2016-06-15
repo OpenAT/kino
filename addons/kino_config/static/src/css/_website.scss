@@ -26,3 +26,11 @@ p {
     min-width: 768px;
     margin: 0 auto;
 }
+
+div.carousel div.carousel-content {
+   a {
+    color: white;
+    text-decoration: underline;
+  }
+  background: transparent;
+}
