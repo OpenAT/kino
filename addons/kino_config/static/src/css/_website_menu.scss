@@ -7,13 +7,17 @@ header {
     background-color: transparent !important;
     color: white;
     text-decoration: none;
-    font-size: 1.250em;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-family: 'Magra', serif;
-    margin: 0.11em 0 0.15em 0;
+    margin: 1.2em 0 0.15em 0;
     padding: 0.26em 0.938em 0.26em 0;
     font-family: 'PT Sans', sans-serif !important;
-
+  > li > a {
+    color: black !important;
+    margin: 39px 0 39px;
+    padding: 2px 22px;
+  }
   }
   .nav {
     a {
@@ -35,6 +39,15 @@ header {
     }
   }
 }
+  .navbar-brand {
+    height: auto !important;
+    img {
+    min-height: 115px;
+    }
+  }
+  header a.navbar-brand img {
+    max-height: inherit !important;
+  }
 
 footer {
     padding-top: 1.7em;
@@ -59,4 +72,21 @@ footer {
   .col-md-4:last-child {
     border-right: none;
   }
+}
+
+#top_menu > li {
+  > a {
+    border-right: 1px solid #a9a9a2;
+  }
+    &:last-child > a {
+        border-right: none;
+  }
+}
+
+.navbar.navbar-static-top ul.nav > li.divider {
+  border-right: none;
+}
+
+.navbar.navbar-static-top {
+  min-height: 139px;
 }

@@ -1,6 +1,12 @@
 // GLOBAL VARIABLES //
 $kinoblue: #0050a0;
 
+$menu-back: #ffffff;
+$brand-success: #353535;
+
+$navbar-default-bg: $menu-back;
+$navbar-inverse-bg: $brand-success;
+
 .btn-primary {
   background: $kinoblue;
   background-color: $kinoblue;
