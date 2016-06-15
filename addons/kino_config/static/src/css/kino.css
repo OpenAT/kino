@@ -49,6 +49,7 @@ p {
 
 div.carousel div.carousel-content {
   float: right;
+  font-size: 1.8em;
   background: transparent; }
   div.carousel div.carousel-content a {
     color: white;
