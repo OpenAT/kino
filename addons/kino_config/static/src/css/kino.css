@@ -15,11 +15,10 @@
 
 body {
   line-height: 1;
-  font-family: "Arial",arial,sans-serif;
   font-family: 'PT Sans', sans-serif !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Magra', serif;
+  font-family: 'PT Sans', sans-serif !important;
   margin-bottom: 0.75em; }
 
 h1 {
