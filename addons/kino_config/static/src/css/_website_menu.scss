@@ -1,7 +1,10 @@
 header {
   .navbar-default {
-    background-color: transparent;
+    background-color: white;
     border-color: transparent;
+    &:active {
+      background-color: white;
+    }
   }
   #top_menu.navbar-nav {
     background-color: transparent !important;
@@ -32,10 +35,21 @@ header {
       color: $kinoblue !important;
     }
   }
-  .dropdown-menu {
-    background-color: rgba(255, 255, 255, 0.8);
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 22px;
+  }
+  header .dropdown-menu {
+    background-color: white;
     a {
       text-transform: capitalize !important;
+    }
+    a:hover {
+      background-color: white !important;
+      color: $kinoblue !important;
+    }
+    a:active {
+      background-color: white !important;
+      color: $kinoblue !important;
     }
   }
 }

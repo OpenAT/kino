@@ -85,8 +85,10 @@ div.carousel div.carousel-content {
   margin: 0px auto !important; }
 
 header .navbar-default {
-  background-color: transparent;
+  background-color: white;
   border-color: transparent; }
+  header .navbar-default:active {
+    background-color: white; }
 header #top_menu.navbar-nav {
   background-color: transparent !important;
   color: white;
@@ -109,10 +111,18 @@ header .nav a:hover {
 header .nav a:active {
   background-color: white !important;
   color: #0050a0 !important; }
-header .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.8); }
-  header .dropdown-menu a {
+header .navbar-nav > li > .dropdown-menu {
+  margin-top: 22px; }
+header header .dropdown-menu {
+  background-color: white; }
+  header header .dropdown-menu a {
     text-transform: capitalize !important; }
+  header header .dropdown-menu a:hover {
+    background-color: white !important;
+    color: #0050a0 !important; }
+  header header .dropdown-menu a:active {
+    background-color: white !important;
+    color: #0050a0 !important; }
 
 .navbar-brand {
   height: auto !important; }
