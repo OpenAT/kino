@@ -28,9 +28,26 @@ p {
 }
 
 div.carousel div.carousel-content {
+  float: right;
    a {
     color: white;
     text-decoration: underline;
   }
   background: transparent;
 }
+
+/*div.carousel-img {
+     content: url(http://www.kindernothilfe.at/skin/knhaut/assets/images/bg/layout/xslider-logo.png.pagespeed.ic.ntkGzSYqZe.png);
+    //background-image: url(http://www.kindernothilfe.at/skin/knhaut/assets/images/bg/layout/xslider-logo.png.pagespeed.ic.ntkGzSYqZe.png);
+  &:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -161px;
+    margin-top: -110px;
+    width: 320px;
+    height: 200px;
+    max-width: 320px;
+    z-index: 1;
+  }
+}*/
