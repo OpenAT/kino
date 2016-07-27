@@ -43,5 +43,6 @@ Addon for all customer specific modifications e.g.:
     ],
     'data': [
         'views/templates.xml',
+        'views/snippets.xml',
     ],
 }

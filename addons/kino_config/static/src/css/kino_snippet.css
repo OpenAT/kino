@@ -1,0 +1,168 @@
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/* SNIPPET ELEMENTS */
+/* kino_textbox(es) */
+.kino_textbox {
+    height: 290px;
+    overflow: hidden;
+}
+.kino_textbox img {
+    max-width: inherit;
+    width: auto;
+}
+.kino_textbox .kino_content a { font-weight: bold; }
+.kino_textbox .kino_content a:before { content: "\BB  "; }
+.kino_textbox .kino_content h3, .kino_content .h3 {
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 0.06em;
+}
+/* kino_textbox_leftimage */
+.kino_textbox_leftimage_imagelink {
+    display: block;
+    width: 320px;
+    float: left;
+    min-height: 290px;
+}
+.kino_textbox_leftimage_text {
+    margin-left: 320px;
+    padding: 0 20px;
+}
+/* kino_textbox_topimage */
+.kino_textbox_topimage_imagelink {
+    display: block;
+    height: 185px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.kino_textbox_topimage_imagelink > img:first-child {
+    width: 100%;
+}
+.kino_textbox_topimage_text {
+    padding: 15px;
+    width: 100%;
+}
+
+/* SNIPPET OPTIONS */
+/* Uniform Backgrounds */
+.knh-black, .knh-yellow, .knh-magenta, .knh-beige, .knh-green, .knh-orange, .knh-brown,
+.knh-black a, .knh-yellow a, .knh-magenta a, .knh-beige a, .knh-green a, .knh-orange a, .knh-brown a {
+    color: white;
+}
+.knh-white { background-color: white; }
+.knh-black { background-color: black; }
+.knh-yellow { background-color: #caa400; }
+.knh-magenta { background-color: #d35ba5; }
+.knh-beige { background-color: #c4b597; }
+.knh-green { background-color: #a7ab0a; }
+.knh-orange { background-color: #f18b27; }
+.knh-brown { background-color: #a27646; }
+
+/* Pattern Backgrounds */
+.knh-pattern-confectionary {
+  background-image: url(/kino_config/static/src/img/patterns/confectionary.png);
+  background-repeat: repeat;
+}
+.knh-pattern-ignasi {
+  background-image: url(/kino_config/static/src/img/patterns/ignasi_pattern_s.png);
+  background-repeat: repeat;
+}
+.knh-pattern-swirl {
+  background-image: url(/kino_config/static/src/img/patterns/swirl_pattern.png);
+  background-repeat: repeat;
+}
+.knh-pattern-symphony {
+  background-image: url(/kino_config/static/src/img/patterns/symphony.png);
+  background-repeat: repeat;
+}
+
+/* Gradient Backgrounds */
+.knh-gradient-darken {
+    /* http://www.cssmatic.com/gradient-generator */
+    background: rgba(20,20,20,0.8);
+    background: -moz-linear-gradient(left, rgba(20,20,20,0.8) 0%, rgba(0,0,0,0.2) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(20,20,20,0.8)), color-stop(100%, rgba(0,0,0,0.2)));
+    background: -webkit-linear-gradient(left, rgba(20,20,20,0.8) 0%, rgba(0,0,0,0.2) 100%);
+    background: -o-linear-gradient(left, rgba(20,20,20,0.8) 0%, rgba(0,0,0,0.2) 100%);
+    background: -ms-linear-gradient(left, rgba(20,20,20,0.8) 0%, rgba(0,0,0,0.2) 100%);
+    background: linear-gradient(to right, rgba(20,20,20,0.8) 0%, rgba(0,0,0,0.2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#000000', GradientType=1 );
+}
+
+/* Image Backgrounds */
+
+/* Heading Colors */
+.knh-heading-white h1, 
+.knh-heading-white h2, 
+.knh-heading-white h3, 
+.knh-heading-white h4, 
+.knh-heading-white h5, 
+.knh-heading-white h6 { 
+    color: white;
+}
+.knh-heading-black h1, 
+.knh-heading-black h2, 
+.knh-heading-black h3, 
+.knh-heading-black h4, 
+.knh-heading-black h5, 
+.knh-heading-black h6 { 
+    color: black;
+}
+.knh-heading-yellow h1, 
+.knh-heading-yellow h2, 
+.knh-heading-yellow h3, 
+.knh-heading-yellow h4, 
+.knh-heading-yellow h5, 
+.knh-heading-yellow h6 { 
+    color: #caa400;
+}
+.knh-heading-magenta h1, 
+.knh-heading-magenta h2, 
+.knh-heading-magenta h3, 
+.knh-heading-magenta h4, 
+.knh-heading-magenta h5, 
+.knh-heading-magenta h6 { 
+    color: #d35ba5;
+}
+.knh-heading-beige h1, 
+.knh-heading-beige h2, 
+.knh-heading-beige h3, 
+.knh-heading-beige h4, 
+.knh-heading-beige h5, 
+.knh-heading-beige h6 { 
+    color: #c4b597;
+}
+.knh-heading-green h1, 
+.knh-heading-green h2, 
+.knh-heading-green h3, 
+.knh-heading-green h4, 
+.knh-heading-green h5, 
+.knh-heading-green h6 { 
+    color: #a7ab0a;
+}
+.knh-heading-orange h1, 
+.knh-heading-orange h2, 
+.knh-heading-orange h3, 
+.knh-heading-orange h4, 
+.knh-heading-orange h5, 
+.knh-heading-orange h6 { 
+    color: #f18b27;
+}
+.knh-heading-brown h1, 
+.knh-heading-brown h2, 
+.knh-heading-brown h3, 
+.knh-heading-brown h4, 
+.knh-heading-brown h5, 
+.knh-heading-brown h6 { 
+    color: #a27646;
+}

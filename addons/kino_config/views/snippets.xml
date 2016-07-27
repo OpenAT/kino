@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- STRUCTURE SNIPPET: Two Columns Left -->
+        <template id="snippet_2col_left" inherit_id="website.snippets" name="Two Columns Left">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Snippet Icon and Name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/2col_left_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Two Columns Left</span>
+                    </div>
+                    <!-- Snippet Content -->
+                    <section class="oe_snippet_body snippet_2col_left">
+                        <div class="container">
+                            <div class="row row-eq-height">
+                                <div class="col-md-8 col_kino">
+                                    <p>Left Column</p>
+                                </div>
+                                <div class="col-md-4 col_kino">
+                                    <p>Right Column</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- STRUCTURE SNIPPET: Two Columns Right -->
+        <template id="snippet_2col_right" inherit_id="website.snippets" name="Two Columns Right">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Snippet Icon and Name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/2col_right_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Two Columns Left</span>
+                    </div>
+                    <!-- Snippet Content -->
+                    <section class="oe_snippet_body snippet_2col_right">
+                        <div class="container">
+                            <div class="row row-eq-height">
+                                <div class="col-md-4 col_kino">
+                                    <p>Left Column</p>
+                                </div>
+                                <div class="col-md-8 col_kino">
+                                    <p>Right Column</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- CONTENT SNIPPET: Image Left Text Right -->
+        <template id="kino_textbox_leftimage" inherit_id="website.snippets" name="Textbox LeftImage">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- SNIPPET UI: ICON AND NAME -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/textbox_leftimage_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Textbox LeftImage</span>
+                    </div>
+                    <!-- SNIPPET CONTENT -->
+                    <div class="oe_snippet_body kino_textbox kino_textbox_leftimage">
+                        <!-- Image-Link left side -->
+                        <a class="kino_textbox_leftimage_imagelink">
+                            <img class="img"
+                                 src="/kino_config/static/src/img/textbox/textbox1-320x290.jpg"
+                                 alt="textbox left image"/>
+                        </a>
+                        <!-- Text right side -->
+                        <div class="kino_textbox_leftimage_text kino_content">
+                            <h3>Spendenshop: Schenke sinnvoll. Schenke Zukunft.</h3>
+                            <p>Schenken Sie Kindern in Armut genügend zu essen, sauberes Trinkwasser und eine
+                                Ausbildung. Als kleines Dankeschön erhalten Sie einen hübschen Kühlschrankmagnet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- CONTENT SNIPPET: Image Top Text Bottom -->
+        <template id="kino_textbox_topimage" inherit_id="website.snippets" name="Textbox TopImage">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- SNIPPET UI: ICON AND NAME -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/textbox_topimage_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Textbox TopImage</span>
+                    </div>
+                    <!-- SNIPPET CONTENT -->
+                    <div class="oe_snippet_body kino_textbox kino_textbox_topimage">
+                        <!-- Image -->
+                        <a class="kino_textbox_topimage_imagelink">
+                            <img class="img"
+                                 src="/kino_config/static/src/img/textbox/textbox1-320x290.jpg"
+                                 alt="textbox left image"/>
+                        </a>
+                        <!-- Text -->
+                        <div class="kino_textbox_topimage_text kino_content">
+                            <h3>Spendenshop: Schenke sinnvoll. Schenke Zukunft.</h3>
+                            <p>Schenken Sie Kindern in Armut genügend zu essen, sauberes Trinkwasser und eine
+                                Ausbildung. Als kleines Dankeschön erhalten Sie einen hübschen Kühlschrankmagnet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- SNIPPET OPTIONS -->
+        <template id="snippet_options_column_bg" name="Kino Snippet Options" inherit_id="website.snippet_options">
+            <!-- Background Colors for Columns and Textboxes -->
+            <xpath expr="." position="inside">
+                <div data-snippet-option-id='background_columns'
+                    data-selector=".col_kino .kino_textbox">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Background</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="-2" href="#">Uniform Color</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='knh-brown'><a>Braun</a></li>
+                                    <li data-value='knh-orange'><a>Orange</a></li>
+                                    <li data-value='knh-green'><a>Green</a></li>
+                                    <li data-value='knh-yellow'><a>Yellow</a></li>
+                                    <li data-value='knh-magenta'><a>Magenta</a></li>
+                                    <li data-value='knh-beige'><a>Beige</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </xpath>
+            <!-- CONTENT SNIPPETS TARGET AND OPTIONS -->
+
+            <xpath expr="//div[@data-snippet-option-id='separator']" position="after">
+                <!-- kino_textbox_leftimage -->
+                <div data-snippet-option-id='kino_textbox_leftimage'
+                    data-selector=".kino_textbox_leftimage"
+                    data-selector-children=".col_kino">
+                </div>
+                <!-- kino_textbox_topimage -->
+                <div data-snippet-option-id='kino_textbox_topimage'
+                    data-selector=".kino_textbox_topimage"
+                    data-selector-children=".col_kino">
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>
