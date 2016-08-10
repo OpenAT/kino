@@ -2,184 +2,103 @@
 <openerp>
     <data>
 
-    <!-- CUSTOM BOOTSTRAP THEME FOR KINO -->
-    <!-- HINT: http://getbootstrap.com/customize -->
-    <template id="kino_theme_option" inherit_id="website.themes" name="Kino Theme Option">
-        <xpath expr='//div[@id="themes-list"]' position="inside">
-            <div class="col-md-4">
-                <div class="well text-center">
-                    <div class="image">
-                        <img class="img-responsive" src="/kino_config/static/src/img/kino_theme_thumbnail.png"
-                             alt="KINO"/>
-                    </div>
-                    <div class="options">
-                        <h3>KINO</h3>
-                        <p>Kindernothilfe</p>
-                        <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_kino">Apply</a>
+        <!-- CUSTOM BOOTSTRAP THEME FOR KINO -->
+        <!-- HINT: http://getbootstrap.com/customize -->
+        <template id="kino_theme_option" inherit_id="website.themes" name="Kino Theme Option">
+            <xpath expr='//div[@id="themes-list"]' position="inside">
+                <div class="col-md-4">
+                    <div class="well text-center">
+                        <div class="image">
+                            <img class="img-responsive" src="/kino_config/static/src/img/kino_theme_thumbnail.png"
+                                 alt="KINO"/>
+                        </div>
+                        <div class="options">
+                            <h3>KINO</h3>
+                            <p>Kindernothilfe</p>
+                            <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_kino">Apply</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </xpath>
-    </template>
-        
-    <!-- load kino theme css and js -->
-    <template id="website.theme_kino" name="KINO" inherit_id="website.theme" active="True" customize_show="True">
-        <xpath expr="//link[@id='bootstrap_css']" position="replace">
-            <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap-theme.css' t-ignore="true"/>
-        </xpath>
-        <xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
-            <link rel='stylesheet' href='/kino_config/static/src/css/kino.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/kino_config/static/src/css/kino_snippet.css' t-ignore="true"/>
-        </xpath>
-    </template>
+            </xpath>
+        </template>
+        <!-- Load kino theme css and js -->
+        <template id="website.theme_kino" name="KINO" inherit_id="website.theme" active="True" customize_show="True">
+            <xpath expr="//link[@id='bootstrap_css']" position="replace">
+                <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap-theme.css' t-ignore="true"/>
+            </xpath>
+            <xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
+                <link rel='stylesheet' href='/kino_config/static/src/css/kino.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/kino_config/static/src/css/kino_snippet.css' t-ignore="true"/>
+            </xpath>
+        </template>
+        <!-- Load custom js and css for the blog -->
+        <template id="kino_assets_frontend_blog" inherit_id="website_blog.assets_frontend" name="KINO Blog CSS">
+            <xpath expr="//script[last()]" position="after">
+                <link rel='stylesheet' href='/kino_config/static/src/css/kino_blog.css' t-ignore="true"/>
+            </xpath>
+        </template>
+        <!-- Load custom js and css for the webshop, blog and the kino-web-agency -->
+        <template id="kino_assets_frontend_shop" inherit_id="website_sale_donate.assets_frontend" name="KINO Webshop CSS">
+            <xpath expr="//script[last()]" position="after">
+                <link rel='stylesheet' href='/kino_config/static/src/css/kino_webshop.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/kino_config/static/src/css/kino_forum.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/kino_config/static/src/css/webagentur.css' t-ignore="true"/>
+            </xpath>
+        </template>
 
-    <!-- Load custom js and css for the webshop -->
-    <template id="kino_assets_frontend" inherit_id="website_sale_donate.assets_frontend" name="KINO Webshop CSS">
-        <xpath expr="//script[last()]" position="after">
-            <link rel='stylesheet' href='/kino_config/static/src/css/kino_webshop.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/kino_config/static/src/css/webagentur.css' t-ignore="true"/>
-        </xpath>
-    </template>
-        
-    <template id="kino_product_grid_description" inherit_id="website_sale.products_description">
-        <xpath expr="//div[@class='text-info oe_subdescription']" position="replace">
-           <div class="text-info oe_subdescription" contenteditable="false">
-             <div itemprop="description" t-field="product.description">
-             </div>
-           </div>
-        </xpath>
-    </template>
 
-    <!-- INHERIT: website.layout: kino navbar -->
-    <template id="kino_navbar" name="KINO navbar" inherit_id="website.layout">
-        <!-- Move navbar to left side -->
-        <xpath expr="//ul[@id='top_menu']" position="attributes">
-            <attribute name="class">nav navbar-nav navbar-left</attribute>
-        </xpath>
-        <!-- Add buttons to the far right next to the navbar -->
-        <xpath expr="//ul[@id='top_menu']" position="after">
-            <div class="pull-right" id="top_menu_buttons">
-                Test
-            </div>
-        </xpath>
-    </template>
+        <!-- INHERIT: website.layout: Sticky Navbar, move navbar to left side, add donate-buttons to right side -->
+        <template id="kino_navbar" name="KINO navbar" inherit_id="website.layout">
+            <!-- Affix Header -->
+            <xpath expr="//div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+                <attribute name="data-spy">affix</attribute>
+                <attribute name="data-offset-top">0</attribute>
+            </xpath>
+            <!-- Move navbar to left side and make it sticky -->
+            <xpath expr="//ul[@id='top_menu']" position="attributes">
+                <attribute name="class">nav navbar-nav navbar-left</attribute>
+            </xpath>
+            <!-- Add buttons to the far right next to the navbar -->
+            <xpath expr="//div[@class='collapse navbar-collapse navbar-top-collapse']" position="before">
+                <div id="top_menu_buttons">
+                    <a href="/shop/product/freie-spende-12" class="btn btn-default">Jetzt spenden</a>
+                    <!--<a href="/page/pate-werden"-->
+                       <!--t-att-class="'hidden' if website_sale_order and website_sale_order.cart_quantity else 'btn btn-default'">-->
+                        <!--Pate werden-->
+                    <!--</a>-->
+                </div>
+            </xpath>
+        </template>
 
-    <!-- GOOGLE WEBMASTER TOOLS -->
-    <!--
-    <template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">
-        <xpath expr="//head//title" position="after">
-            <meta name="google-site-verification" content="google1234567890.html"/>
-        </xpath>
-    </template>
-    -->
+        <!-- INHERIT: website_sale.header: Sticky Navbar, move navbar to left side, add donate-buttons to right side -->
+        <template id="kino_navbar_cartlink" name="KINO cart link" inherit_id="website_sale.header">
+            <!-- Affix Header -->
+            <xpath expr="//a[@href='/shop/cart']" position="replace">
+                <a href="/shop/cart">
+                    <i class="fa fa-shopping-cart"></i>
+                    <!--Ihre Spende-->
+                    <sup t-attf-class="my_cart_quantity label label-primary" t-esc="website_sale_order and website_sale_order.cart_quantity or ''"/>
+                </a>
+            </xpath>
+        </template>
 
-    <!-- SNIPPET OPTIONS -->
-    <template id="website_pfoh_snippet_options" inherit_id="website.snippet_options">
+        <!-- INHERIT: website_sale.products_description, change product description -->
+        <template id="kino_product_grid_description" inherit_id="website_sale.products_description">
+            <xpath expr="//div[@class='text-info oe_subdescription']" position="replace">
+               <div class="text-info oe_subdescription" contenteditable="false">
+                 <div itemprop="description" t-field="product.description">
+                 </div>
+               </div>
+            </xpath>
+        </template>
 
-        <!-- Replace Background Colors and Images -->
-        <xpath expr="//div[@data-snippet-option-id='background']/li" position="replace">
-            <li class="dropdown-submenu" data-required="true">
-                <a tabindex="-1" href="#">Background</a>
-                <ul class="dropdown-menu">
-                    <!-- Uniform Backgrounds -->
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Uniform Background</a>
-                        <ul class="dropdown-menu">
-                            <li data-value='oe_dark'><a>Darken</a></li>
-                            <li data-value='knh-white'><a>Weiss</a></li>
-                            <li data-value='knh-black'><a>Schwarz</a></li>
-                            <li data-value='knh-brown'><a>Braun</a></li>
-                            <li data-value='knh-orange'><a>Orange</a></li>
-                            <li data-value='knh-green'><a>Green</a></li>
-                            <li data-value='knh-yellow'><a>Yellow</a></li>
-                            <li data-value='knh-magenta'><a>Magenta</a></li>
-                            <li data-value='knh-beige'><a>Beige</a></li>
-                        </ul>
-                    </li>
-                    <!-- Pattern Backgrounds -->
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Pattern Background</a>
-                        <ul class="dropdown-menu">
-                            <li data-value="knh-pattern-confectionary"><a>confectionary</a></li>
-                            <li data-value="knh-pattern-ignasi"><a>ignasi</a></li>
-                            <li data-value="knh-pattern-swirl"><a>swirl</a></li>
-                            <li data-value="knh-pattern-symphony"><a>symphony</a></li>
-                        </ul>
-                    </li>
-                    <!-- Gradient Backgrounds -->
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Gradient Background</a>
-                        <ul class="dropdown-menu">
-                            <li data-value='knh-gradient-darken'><a>Dark to Transparent</a></li>
-                        </ul>
-                    </li>
-                    <!-- Image Backgrounds -->
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Image Background</a>
-                        <ul class="dropdown-menu">
-                            <li data-value="oe_img_bg" data-src="/kino_config/static/src/img/banner/GR_Bauchs_840x476_.jpg"><a>Bauchs</a></li>
-                            <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/aqua.jpg"><a>Aqua</a></li>
-                            <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/baby_blue.jpg"><a>Baby Blue</a></li>
-                        </ul>
-                    </li>
-                    <!-- Heading Colors -->
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Heading Colors</a>
-                            <ul class="dropdown-menu">
-                                <li data-value='knh-heading-white'><a>Weiss</a></li>
-                                <li data-value='knh-heading-black'><a>Schwarz</a></li>
-                                <li data-value='knh-heading-brown'><a>Braun</a></li>
-                                <li data-value='knh-heading-orange'><a>Orange</a></li>
-                                <li data-value='knh-heading-green'><a>Green</a></li>
-                                <li data-value='knh-heading-yellow'><a>Yellow</a></li>
-                                <li data-value='knh-heading-magenta'><a>Magenta</a></li>
-                                <li data-value='knh-heading-beige'><a>Beige</a></li>
-                            </ul>
-                    </li>
-                    <!-- Add a custom image -->
-                    <li data-value=""><a>None</a></li>
-                    <li><a style="background: none; padding: 5px; border-top: 1px solid #ddd;"></a></li>
-                    <li class="oe_custom_bg" data-value="oe_img_bg"><a><b>Choose an image...</b></a></li>
-                </ul>
-            </li>
-        </xpath>
-
-        <!-- IMAGE-BOX STYLES -->
-        <xpath expr="//div[@data-snippet-option-id='transform']//li" position="after">
-            <!-- Image Border Styles -->
-            <li class="dropdown-submenu" data-required="true">
-                <a tabindex="-1" href="#">Box-Styles</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Umrandung</a>
-                            <ul class="dropdown-menu">
-                                <li data-value='pfot_imgrad_red'><a>Bildbox HG rot BORDER abgerundet</a></li>
-                                <li data-value='pfot_imgrad_yellow'><a>Bildbox HG gelb BORDER abgerundet</a></li>
-                                <li data-value='pfot_imgrad_white'><a>Bildbox HG weiss BORDER abgerundet</a></li>
-                               <li data-value='pfot_imgrad_none'><a>Bildbox alles weg</a></li>
-                            </ul>
-                    </li>
-                </ul>
-            </li>
-            <!-- Image Badge Styles -->
-            <li class="dropdown-submenu" data-required="true">
-                <a tabindex="-1" href="#">Badges</a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-submenu">
-                        <a tabindex="-2" href="#">Positionierung</a>
-                            <ul class="dropdown-menu">
-                                <li data-value='pfot_img_badge-header-news'><a>Header-Badge-news</a></li>
-                                <li data-value='pfot_img_badge-header-schleife'><a>Header-Badge-Schleife</a></li>
-                                <li data-value='pfot_img_badge-header-siegel'><a>Header-Badge-Siegel</a></li>
-                                <li data-value='pfot_img_badge-header-pate'><a>Header-Badge-Pate</a></li>
-                                <li data-value=''><a>remove</a></li>
-                            </ul>
-                    </li>
-                </ul>
-            </li>
-        </xpath>
-    </template>
+        <!-- GOOGLE WEBMASTER TOOLS -->
+        <!--<template id="google_webmastertools_site_verification" inherit_id="website.layout" name="Google Webmastertools site verification">-->
+            <!--<xpath expr="//head//title" position="after">-->
+                <!--<meta name="google-site-verification" content="google1234567890.html"/>-->
+            <!--</xpath>-->
+        <!--</template>-->
 
     </data>
 </openerp>

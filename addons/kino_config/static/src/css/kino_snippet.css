@@ -2,18 +2,27 @@
  * Row with equal height columns
  * --------------------------------------------------
  */
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+@media (min-width: 768px) {
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
 }
 
 /* SNIPPET ELEMENTS */
 /* kino_textbox(es) */
 .kino_textbox {
-    height: 290px;
     overflow: hidden;
+    margin-bottom: 20px;
+}
+/* min-width = "ab" 768px */
+@media (min-width: 768px) {
+    .kino_textbox {
+        height: 290px;
+        margin: 0;
+    }
 }
 .kino_textbox img {
     max-width: inherit;
@@ -26,18 +35,11 @@
     font-weight: lighter;
     letter-spacing: 0.06em;
 }
-/* kino_textbox_leftimage */
-.kino_textbox_leftimage_imagelink {
-    display: block;
-    width: 320px;
-    float: left;
-    min-height: 290px;
+.kino_textbox .kino_content h3:first-child, .kino_content .h3:first-child {
+    margin-top: 0;
 }
-.kino_textbox_leftimage_text {
-    margin-left: 320px;
-    padding: 0 20px;
-}
-/* kino_textbox_topimage */
+/* kino_textbox_leftimage and kino_textbox_topimage */
+.kino_textbox_leftimage_imagelink,
 .kino_textbox_topimage_imagelink {
     display: block;
     height: 185px;
@@ -45,12 +47,29 @@
     overflow: hidden;
     position: relative;
 }
+.kino_textbox_leftimage_imagelink > img:first-child,
 .kino_textbox_topimage_imagelink > img:first-child {
     width: 100%;
 }
+.kino_textbox_leftimage_text,
 .kino_textbox_topimage_text {
-    padding: 15px;
+    padding: 15px 20px;
     width: 100%;
+}
+/* kino_textbox_leftimage ab 768 px */
+@media (min-width: 768px) {
+    .kino_textbox_leftimage_imagelink {
+        display: block;
+        width: 320px;
+        float: left;
+        min-height: 290px;
+    }
+
+    .kino_textbox_leftimage_text {
+        margin-left: 320px;
+        padding: 15px 20px;
+        width: auto;
+    }
 }
 
 /* SNIPPET OPTIONS */

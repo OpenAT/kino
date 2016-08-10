@@ -1,5 +1,10 @@
 /* FONT */
-body,
+body, .para_large {
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     letter-spacing: 0.02em;
@@ -11,6 +16,17 @@ strong {
 blockquote footer, blockquote small, blockquote .small,
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
     color: #555;
+}
+
+/* PAGER and BADGES */
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+    color: black;
+}
+.badge {
+    color: black;
 }
 
 /* DROPDOWN MENU */
@@ -43,7 +59,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 /* Remove radius, gradients and shadow */
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
     background-image: none;
-    background-repeat: none;
+    background-repeat: no-repeat;
     filter: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -54,7 +70,48 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
     border-radius: 0;
 }
 
+/* NAVTABS */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+.tab-content > .tab-pane {
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+/* Fix top distance for the add_to_cart button in opc-pages below the payment-option-tab-panes */
+/* HINT: height of the tab panes is calculated by java script and will not take padding or margin into account */
+.ppt_opc_cb_outer a#add_to_cart.mt16 {
+    margin-top: 100px !important;
+}
+
+/* NAVPILLS */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: white;
+}
+
+/* BREADCRUMB */
+.breadcrumb > .active {
+    color: #000000;
+}
+
 /* HEADER AND MAIN MENU */
+/* Affix Top Menu */
+header {
+    height: 140px;
+}
+header .navbar.navbar-static-top {
+    width:100%;
+}
+html[data-editable="1"] header .navbar.navbar-default.navbar-static-top.affix {
+    position: relative !important; /* HINT: no affix for editing mode */
+}
 /* Logo */
 header a.navbar-brand img {
     max-height: 135px !important;
@@ -119,8 +176,32 @@ header a.navbar-brand img {
 }
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > .dropdown-menu {
-        padding: 2em 2em 0.5em 2em;
+        padding: 2em 2em 2em 2em;
         top: 100px;
+    }
+}
+/* Navbar extra buttons on right side */
+#top_menu_buttons {
+    float: right;
+}
+#top_menu_buttons > a {
+    margin: 51px 0;
+    margin-left: 1em;
+}
+@media (max-width: 1200px) {
+    #top_menu_buttons {
+        float: left;
+    }
+    header {
+        height: 273px;
+    }
+}
+@media (max-width: 767px) {
+    #top_menu_buttons {
+        display: none;
+    }
+    header {
+        height: 140px;
     }
 }
 
