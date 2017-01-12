@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- STRUCTURE SNIPPET: Two Columns Left -->
+        <template id="snippet_2col_left" inherit_id="website.snippets" name="Two Columns Left">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Snippet Icon and Name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/2col_left_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Two Columns Left</span>
+                    </div>
+                    <!-- Snippet Content -->
+                    <section class="oe_snippet_body snippet_2col_left">
+                        <div class="container">
+                            <div class="row row-eq-height">
+                                <div class="col-md-8 col_kino">
+                                    <p>Left Column</p>
+                                </div>
+                                <div class="col-md-4 col_kino">
+                                    <p>Right Column</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- STRUCTURE SNIPPET: Two Columns Right -->
+        <template id="snippet_2col_right" inherit_id="website.snippets" name="Two Columns Right">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Snippet Icon and Name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/2col_right_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Two Columns Left</span>
+                    </div>
+                    <!-- Snippet Content -->
+                    <section class="oe_snippet_body snippet_2col_right">
+                        <div class="container">
+                            <div class="row row-eq-height">
+                                <div class="col-md-4 col_kino">
+                                    <p>Left Column</p>
+                                </div>
+                                <div class="col-md-8 col_kino">
+                                    <p>Right Column</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- STRUCTURE SNIPPET: Three Columns Even -->
+        <template id="snippet_3col_even" inherit_id="website.snippets" name="Three Columns Even">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <!-- Snippet Icon and Name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/3col_even.png"/>
+                        <span class="oe_snippet_thumbnail_title">Three Columns Even</span>
+                    </div>
+                    <!-- Snippet Content -->
+                    <section class="oe_snippet_body snippet_3col_even">
+                        <div class="container">
+                            <div class="row row-eq-height">
+                                <div class="col-md-4 col_kino">
+                                    <p>Left Column</p>
+                                </div>
+                                <div class="col-md-4 col_kino">
+                                    <p>Mid Column</p>
+                                </div>
+                                <div class="col-md-4 col_kino">
+                                    <p>Right Column</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- CONTENT SNIPPET: Image Left Text Right -->
+        <template id="kino_textbox_leftimage" inherit_id="website.snippets" name="Textbox LeftImage">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- SNIPPET UI: ICON AND NAME -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/textbox_leftimage_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Textbox LeftImage</span>
+                    </div>
+                    <!-- SNIPPET CONTENT -->
+                    <div class="oe_snippet_body kino_textbox kino_textbox_leftimage">
+                        <!-- Image-Link left side -->
+                        <a class="kino_textbox_leftimage_imagelink">
+                            <img class="img"
+                                 src="/kino_config/static/src/img/textbox/textbox1-320x290.jpg"
+                                 alt="textbox left image"/>
+                        </a>
+                        <!-- Text right side -->
+                        <div class="kino_textbox_leftimage_text kino_content">
+                            <h3>Spendenshop: Schenke sinnvoll. Schenke Zukunft.</h3>
+                            <p>Schenken Sie Kindern in Armut genügend zu essen, sauberes Trinkwasser und eine
+                                Ausbildung. Als kleines Dankeschön erhalten Sie einen hübschen Kühlschrankmagnet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- CONTENT SNIPPET: Image Top Text Bottom -->
+        <template id="kino_textbox_topimage" inherit_id="website.snippets" name="Textbox TopImage">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div>
+                    <!-- SNIPPET UI: ICON AND NAME -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/kino_config/static/src/img/ui/textbox_topimage_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Textbox TopImage</span>
+                    </div>
+                    <!-- SNIPPET CONTENT -->
+                    <div class="oe_snippet_body kino_textbox kino_textbox_topimage">
+                        <!-- Image -->
+                        <a class="kino_textbox_topimage_imagelink">
+                            <img class="img"
+                                 src="/kino_config/static/src/img/textbox/textbox1-320x290.jpg"
+                                 alt="textbox left image"/>
+                        </a>
+                        <!-- Text -->
+                        <div class="kino_textbox_topimage_text kino_content">
+                            <h3>Spendenshop: Schenke sinnvoll. Schenke Zukunft.</h3>
+                            <p>Schenken Sie Kindern in Armut genügend zu essen, sauberes Trinkwasser und eine
+                                Ausbildung. Als kleines Dankeschön erhalten Sie einen hübschen Kühlschrankmagnet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <!-- =============== -->
+        <!-- SNIPPET OPTIONS -->
+        <!-- =============== -->
+        <template id="snippet_options_column_bg" name="Kino Snippet Options" inherit_id="website.snippet_options">
+
+            <!-- REPLACE DEFAULT SNIPPET OPTIONS -->
+            <xpath expr="//div[@data-snippet-option-id='background']/li" position="replace">
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Background</a>
+                    <ul class="dropdown-menu">
+                        <!-- Uniform Backgrounds -->
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Uniform Background</a>
+                            <ul class="dropdown-menu">
+                                <li data-value='oe_dark'><a>Darken</a></li>
+                                <li data-value='knh-white'><a>Weiss</a></li>
+                                <li data-value='knh-black'><a>Schwarz</a></li>
+                                <li data-value='knh-brown'><a>Braun</a></li>
+                                <li data-value='knh-orange'><a>Orange</a></li>
+                                <li data-value='knh-green'><a>Green</a></li>
+                                <li data-value='knh-yellow'><a>Yellow</a></li>
+                                <li data-value='knh-magenta'><a>Magenta</a></li>
+                                <li data-value='knh-beige'><a>Beige</a></li>
+                            </ul>
+                        </li>
+                        <!-- Pattern Backgrounds -->
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Pattern Background</a>
+                            <ul class="dropdown-menu">
+                                <li data-value="knh-pattern-confectionary"><a>confectionary</a></li>
+                                <li data-value="knh-pattern-ignasi"><a>ignasi</a></li>
+                                <li data-value="knh-pattern-swirl"><a>swirl</a></li>
+                                <li data-value="knh-pattern-symphony"><a>symphony</a></li>
+                            </ul>
+                        </li>
+                        <!-- Gradient Backgrounds -->
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Gradient Background</a>
+                            <ul class="dropdown-menu">
+                                <li data-value='knh-gradient-darken'><a>Dark to Transparent</a></li>
+                            </ul>
+                        </li>
+                        <!-- Image Backgrounds -->
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Image Background</a>
+                            <ul class="dropdown-menu">
+                                <li data-value="oe_img_bg" data-src="/kino_config/static/src/img/banner/GR_Bauchs_840x476_.jpg"><a>Bauchs</a></li>
+                                <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/aqua.jpg"><a>Aqua</a></li>
+                                <li data-value="oe_img_bg" data-src="/website/static/src/img/banner/baby_blue.jpg"><a>Baby Blue</a></li>
+                            </ul>
+                        </li>
+                        <!-- Heading Colors -->
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Heading Colors</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='knh-heading-white'><a>Weiss</a></li>
+                                    <li data-value='knh-heading-black'><a>Schwarz</a></li>
+                                    <li data-value='knh-heading-brown'><a>Braun</a></li>
+                                    <li data-value='knh-heading-orange'><a>Orange</a></li>
+                                    <li data-value='knh-heading-green'><a>Green</a></li>
+                                    <li data-value='knh-heading-yellow'><a>Yellow</a></li>
+                                    <li data-value='knh-heading-magenta'><a>Magenta</a></li>
+                                    <li data-value='knh-heading-beige'><a>Beige</a></li>
+                                </ul>
+                        </li>
+                        <!-- Add a custom image -->
+                        <li data-value=""><a>None</a></li>
+                        <li><a style="background: none; padding: 5px; border-top: 1px solid #ddd;"></a></li>
+                        <li class="oe_custom_bg" data-value="oe_img_bg"><a><b>Choose an image...</b></a></li>
+                    </ul>
+                </li>
+            </xpath>
+            <!-- Replace default image styles -->
+            <xpath expr="//div[@data-snippet-option-id='transform']//li" position="after">
+                <!-- Image Border Styles -->
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Box-Styles</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Umrandung</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='pfot_imgrad_red'><a>Bildbox HG rot BORDER abgerundet</a></li>
+                                    <li data-value='pfot_imgrad_yellow'><a>Bildbox HG gelb BORDER abgerundet</a></li>
+                                    <li data-value='pfot_imgrad_white'><a>Bildbox HG weiss BORDER abgerundet</a></li>
+                                   <li data-value='pfot_imgrad_none'><a>Bildbox alles weg</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Image Badge Styles -->
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Badges</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-2" href="#">Positionierung</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='pfot_img_badge-header-news'><a>Header-Badge-news</a></li>
+                                    <li data-value='pfot_img_badge-header-schleife'><a>Header-Badge-Schleife</a></li>
+                                    <li data-value='pfot_img_badge-header-siegel'><a>Header-Badge-Siegel</a></li>
+                                    <li data-value='pfot_img_badge-header-pate'><a>Header-Badge-Pate</a></li>
+                                    <li data-value=''><a>remove</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </li>
+            </xpath>
+
+            <!-- KINO COLUMNS- AND TEXTBOX-SNIPPETS OPTIONS -->
+            <xpath expr="." position="inside">
+                <div data-snippet-option-id='background_color'
+                    data-selector=".col_kino .kino_textbox">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">KINO Snippets Background</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="-2" href="#">Uniform Background</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='knh-brown'><a>Braun</a></li>
+                                    <li data-value='knh-orange'><a>Orange</a></li>
+                                    <li data-value='knh-green'><a>Green</a></li>
+                                    <li data-value='knh-yellow'><a>Yellow</a></li>
+                                    <li data-value='knh-magenta'><a>Magenta</a></li>
+                                    <li data-value='knh-beige'><a>Beige</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+                <div data-snippet-option-id='heading_color'
+                    data-selector=".col_kino .kino_textbox">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">KINO Snippets Heading-Color</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="-2" href="#">Heading(s) Color</a>
+                                <ul class="dropdown-menu">
+                                    <li data-value='knh-heading-white'><a>Weiss</a></li>
+                                    <li data-value='knh-heading-black'><a>Schwarz</a></li>
+                                    <li data-value='knh-heading-brown'><a>Braun</a></li>
+                                    <li data-value='knh-heading-orange'><a>Orange</a></li>
+                                    <li data-value='knh-heading-green'><a>Green</a></li>
+                                    <li data-value='knh-heading-yellow'><a>Yellow</a></li>
+                                    <li data-value='knh-heading-magenta'><a>Magenta</a></li>
+                                    <li data-value='knh-heading-beige'><a>Beige</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+
+            </xpath>
+
+            <!-- CONTENT-SNIPPETS DROP-TARGET(S) (inside or besides) -->
+            <xpath expr="//div[@data-snippet-option-id='separator']" position="after">
+
+                <!-- Drop-Target for kino_textbox_leftimage snippet -->
+                <div data-snippet-option-id='kino_textbox_leftimage'
+                    data-selector=".kino_textbox_leftimage"
+                    data-selector-children=".col_kino.col-md-8">
+                </div>
+
+                <!-- Drop-Target for kino_textbox_topimage snippet -->
+                <div data-snippet-option-id='kino_textbox_topimage'
+                    data-selector=".kino_textbox_topimage"
+                    data-selector-children=".col_kino.col-md-4">
+                </div>
+            </xpath>
+
+        </template>
+    </data>
+</openerp>

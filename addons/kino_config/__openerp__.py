@@ -39,9 +39,11 @@ Addon for all customer specific modifications e.g.:
         'sale',
         'portal_sale',
         'website',
+        'website_blog',
         'website_sale_donate',
     ],
     'data': [
         'views/templates.xml',
+        'views/snippets.xml',
     ],
 }
