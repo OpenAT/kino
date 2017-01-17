@@ -215,3 +215,8 @@ footer {
 footer > .container { padding-top: 46px; }
 footer ul a { color: black; }
 footer h4 { font-size: 14px; }
+
+/* JQUERY VALIDATE */
+.apf_container .form-control-feedback {
+    right: 18px;
+}
