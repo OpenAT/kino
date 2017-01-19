@@ -217,7 +217,7 @@ footer ul a { color: black; }
 footer h4 { font-size: 14px; }
 
 /* JQUERY VALIDATE */
-.apf_container .form-control-feedback {
+.apf_container .has-feedback .form-control-feedback {
     right: 18px;
 }
 /* reset bootstrap setting for auth_partner_form */
