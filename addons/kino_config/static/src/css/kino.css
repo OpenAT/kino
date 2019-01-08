@@ -129,11 +129,20 @@ header a.navbar-brand img {
     font-weight: 300;
     letter-spacing: 0.06em;
 }
+
+/* Fix for menus with too many entries */
+#top_menu {
+    max-width: 800px;
+    max-height: 137px;
+    margin-top: 54px;
+}
+
+
 /* Level 1: line height, borders and distance */
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         padding: 0 22px;
-        margin: 51px 0;
+        margin: 0;
         border-left: 1px solid rgb(169, 169, 162);
     }
 
