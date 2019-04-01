@@ -41,6 +41,7 @@ Addon for all customer specific modifications e.g.:
         'website',
         'website_blog',
         'website_sale_donate',
+        'fso_base_website',
     ],
     'data': [
         'views/templates.xml',
