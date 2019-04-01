@@ -21,23 +21,26 @@
                 </div>
             </xpath>
         </template>
+        
         <!-- Load kino theme css and js -->
         <template id="website.theme_kino" name="KINO" inherit_id="website.theme" active="True" customize_show="True">
-            <xpath expr="//link[@id='bootstrap_css']" position="replace">
+            <xpath expr="//link[@id='bootstrap_css']" position="after">
                 <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/kino_config/static/src/css/bootstrap_kino/css/bootstrap-theme.css' t-ignore="true"/>
             </xpath>
-            <xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
+            <xpath expr="//link[last()]" position="after">
                 <link rel='stylesheet' href='/kino_config/static/src/css/kino.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/kino_config/static/src/css/kino_snippet.css' t-ignore="true"/>
             </xpath>
         </template>
+        
         <!-- Load custom js and css for the blog -->
         <template id="kino_assets_frontend_blog" inherit_id="website_blog.assets_frontend" name="KINO Blog CSS">
             <xpath expr="//script[last()]" position="after">
                 <link rel='stylesheet' href='/kino_config/static/src/css/kino_blog.css' t-ignore="true"/>
             </xpath>
         </template>
+        
         <!-- Load custom js and css for the webshop, blog and the kino-web-agency -->
         <template id="kino_assets_frontend_shop" inherit_id="website_sale_donate.assets_frontend" name="KINO Webshop CSS">
             <xpath expr="//script[last()]" position="after">
