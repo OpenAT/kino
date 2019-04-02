@@ -15,7 +15,7 @@
                         <div class="options">
                             <h3>KINO</h3>
                             <p>Kindernothilfe</p>
-                            <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_kino_v2">Apply</a>
+                            <a class="btn btn-info" href="/website/theme_change?theme_id=kino_config.theme_kino_v2">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
         </template>
         
         <!-- Load kino theme css and js -->
-       <template id="website.theme_kino_v2" name="KINO" inherit_id="fso_base_website.website_css" active="True" customize_show="True">
+       <template id="theme_kino_v2" name="theme_kino_v2" inherit_id="fso_base_website.website_css" active="True" customize_show="True">
             <xpath expr="//link[last()]" position="after">
                 <link rel='stylesheet' href='/kino_config/static/src/css/kino.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/kino_config/static/src/css/kino_snippet.css' t-ignore="true"/>
