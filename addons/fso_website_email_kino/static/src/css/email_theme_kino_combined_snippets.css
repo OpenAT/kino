@@ -1,0 +1,92 @@
+/* HEADER REWORKED */
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerLeft {
+    width: 350px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerRight {
+    width: 190px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_twocol .flexibleContainerCell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#combinedheadersnippetfullwith.snippet_block_text_image_left .flexibleContainerLeft .imageContent {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+#combinedheadersnippetfullwith.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage,
+#combinedheadersnippetfullwith.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage img {
+    height: 80px;
+    width: 92px;
+}
+#combinedheadersnippetfullwith.snippet_block_text_image_left .flexibleContainerCell {
+    padding: 0px;
+}
+#combinedheadersnippetfullwith .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#combinedheadersnippetfullwith .flexibleContainerCell {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_intro .flexibleContainerCell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerLeft,
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerRight {
+    background-color: #e5e5e2;
+}
+/* Special reset for Header Full width does not work
+
+#combinedheadersnippetfullwith .flexibleContainer {
+    width: 100%;
+}
+*/
+/* special styles footer*/
+.combinedfooter a {
+    color: #0050a0;
+    font-size: 12px;
+}
+combinedsnippetfooter,
+#combinedsnippetfooter p {
+    color: #333333;
+    font-size: 12px;
+    line-height: 19px;
+}
+#combinedsnippetfooter .infopart {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#combinedsnippetfooter .infopart.snippet_block_text_image_left .flexibleContainerLeft img.flexibleImage {
+    width: 110px;
+}
+#combinedsnippetfooter .snippet_block_text_twocol  table.flexibleContainerLeft,
+#combinedsnippetfooter .snippet_block_text_twocol  table.flexibleContainerRight{
+    background-color: #e5e5e2;;
+}
+#combinedsnippetfooter .footer_header_part.snippet_block_text_twocol  table.flexibleContainerLeft,
+#combinedsnippetfooter .footer_header_part.snippet_block_text_twocol  table.flexibleContainerRight{
+    background-color: #c4c700;;
+}
+
+/* remove padding intro block */
+.snippet_block_text_intro.combinedfooter .flexibleContainerCell {
+    padding: 0px;
+}
+
+/* remove padding from spcial twocol block */
+.snippet_block_text_twocol.combinedfooter .flexibleContainerCell {
+    padding: 0px;
+}
+.combinedfooter .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.combinedfooter .footer_header_part .flexibleContainerCell {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
