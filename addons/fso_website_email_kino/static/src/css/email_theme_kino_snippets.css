@@ -1,7 +1,12 @@
 /* ------------------------------- */
 /* kino SIZING FOR 560 PIXEL WIDTH */
 /* ------------------------------- */
-
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 560px;
+}
+img.flexibleImage.snippet_block_banner_image {
+        width: 560px;
+}
 .flexibleContainer {
     /*width: 560px;*/
 }
@@ -70,17 +75,17 @@
 .snippet_block_spacer .flexibleContainer {
     background-color: transparent;
 }
-
+/*
 .snippet_block_banner.dadi_sb_bg_full .flexibleImage {
     width: 560px;
     max-width: 560px;
-}
-
+}*/
+/*
 .snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
     width: 540px;
     max-width: 540px;
 
-}
+}*/
 
 /* --------------- */
 /* SNIPPET OPTIONS */

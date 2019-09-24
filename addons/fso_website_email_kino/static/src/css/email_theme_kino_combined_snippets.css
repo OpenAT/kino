@@ -1,4 +1,12 @@
 /* HEADER REWORKED */
+img.emailThemeHeaderLogo {
+    width: 92px;
+    height: auto;
+}
+img.emailThemeFooterLogo {
+    width: 92px;
+    height: auto;
+}
 #combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerLeft {
     width: 350px;
 }

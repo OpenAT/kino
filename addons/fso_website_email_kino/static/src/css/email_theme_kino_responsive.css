@@ -12,6 +12,15 @@
     /*    width: 100% !important;*/
     /*}*/
 
+    img.flexibleImage.emailThemeHeaderLogo {
+    width: 92px;
+    height: auto;
+    }
+    img.flexibleImage.emailThemeFooterLogo {
+    width: 92px;
+    height: auto;
+    }
+
     #emailBody,
     table.flexibleContainer {
         width: 100% !important;

@@ -157,7 +157,7 @@
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top"
                                                                                                                 contenteditable="true">
-                                                                                                                <img class="flexibleImage"
+                                                                                                                <img class="flexibleImage emailThemeHeaderLogo"
                                                                                                                      data-cke-saved-src="/fso_website_email_kino/static/src/img/logo_knh_white.png"
                                                                                                                      src="/fso_website_email_kino/static/src/img/logo_knh_white.png"/>
                                                                                                             </td>
@@ -350,8 +350,8 @@
                                                                                                                 <td align="left"
                                                                                                                     class="imageContent ckediting_enabled"
                                                                                                                     valign="top">
-                                                                                                                    <img class="flexibleImage"
-                                                                                                                         src="/website/image/ir.attachment/5980_4c7f5dc/datas"/>
+                                                                                                                    <img class="flexibleImage emailThemeFooterLogo"
+                                                                                                                         src="/fso_website_email_kino/static/src/img/logo_knh_black_big.png"/>
                                                                                                                 </td>
                                                                                                             </tr>
                                                                                                         </tbody>
@@ -820,9 +820,8 @@
                                                                                                 <td class="textContent ckediting_enabled">
                                                                                                     <h1 style="text-align: right;">
                                                                                                         <span style="color: rgb(0, 0, 0); font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
-                                                                                                            <img src="/website/image/ir.attachment/5981_628336e/datas"/>
-                                                                                                            <img
-                                                                                                                    src="/website/image/ir.attachment/678_d2d6f2e/datas"/>
+                                                                                                            <img src="/fso_website_email_kino/static/src/img/absetzbar.png"/>
+                                                                                                            <img src="/fso_website_email_kino/static/src/img/guetesiegel.png"/>
                                                                                                         </span>
                                                                                                     </h1>
                                                                                                 </td>
