@@ -35,11 +35,6 @@ html body #wrapwrap {
     width: 100%;
     background-color: #e5e5e2;
 }
-#combinedheadersnippetfullwith.snippet_block,
-.snippet_block.footer_header_part {
-    width: 100%;
-    background-color: #c4c700;
-}
 
 .snippet_block.linespacer_footer,
 .snippet_block.linespacer_footer .flexibleContainer {

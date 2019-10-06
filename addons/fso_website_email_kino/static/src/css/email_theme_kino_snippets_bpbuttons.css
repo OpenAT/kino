@@ -43,8 +43,8 @@
     text-underline: none;
     text-decoration: none;
     /* for safety */
-    background-color: #e8904a;
-    border-color: #e8904a;
+    background-color: #c4c700;
+    border-color: #c4c700;
     color: #ffffff;
 }
 
@@ -93,8 +93,8 @@
 /* bpbutton_style_default */
 .snippet_block_bpbutton.bpbutton_style_default .bpbutton_table,
 .snippet_block_bpbutton.bpbutton_style_default .bpbutton_table a {
-    background-color: #e8904a;
-    border-color: #e8904a;
+    background-color: #c4c700;
+    border-color: #c4c700;
     color: #ffffff;
     font-weight: bold;
 }

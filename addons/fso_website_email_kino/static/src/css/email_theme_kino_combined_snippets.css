@@ -38,6 +38,103 @@ img.emailThemeFooterLogo {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+#combinedheadersnippetfullwith.snippet_block,
+.snippet_block.footer_header_part {
+    width: 100%;
+    /*background-color: #c4c700;*/
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinogreen,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinogreen .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable {
+    background-color: #c4c700;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable p {
+    color: #ffffff;
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinogreen,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinogreen .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable {
+    background-color: #c4c700;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable p {
+    color: #ffffff;
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_white,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_white .contenTable
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_white,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_white .contenTable {
+    background-color: #ffffff;
+    color: #000000;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_white .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_white .contenTable p {
+    color: #000000;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_white,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_white .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_white,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_white .contenTable {
+    background-color: #ffffff;
+    color: #000000;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_white .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_white .contenTable p {
+    color: #000000;
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_blue,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_blue .contenTable
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_blue,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_blue .contenTable {
+    background-color: #0050a0;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_blue .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_blue .contenTable p {
+    color: #ffffff;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_blue,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_blue .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_blue,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_blue .contenTable {
+    background-color: #0050a0;
+}
+
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_blue .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_blue .contenTable p {
+    color: #ffffff;
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_background,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_background .contenTable
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_background,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_background .contenTable {
+    background-color: #e5e5e2;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_background .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_background .contenTable p {
+    color: #000000;
+}
+
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_background,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_background .contenTable
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_background,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_background .contenTable {
+    background-color: #e5e5e2;
+}
+
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_background .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_background .contenTable p {
+    color: #000000;
+}
+
 #combinedheadersnippetWebVersion.snippet_block_text_intro .flexibleContainerCell {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -72,13 +169,15 @@ combinedsnippetfooter,
 #combinedsnippetfooter .infopart.snippet_block_text_image_left .flexibleContainerLeft img.flexibleImage {
     width: 110px;
 }
+
 #combinedsnippetfooter .snippet_block_text_twocol  table.flexibleContainerLeft,
 #combinedsnippetfooter .snippet_block_text_twocol  table.flexibleContainerRight{
     background-color: #e5e5e2;;
 }
+
 #combinedsnippetfooter .footer_header_part.snippet_block_text_twocol  table.flexibleContainerLeft,
 #combinedsnippetfooter .footer_header_part.snippet_block_text_twocol  table.flexibleContainerRight{
-    background-color: #c4c700;;
+    background-color: inherit;
 }
 
 /* remove padding intro block */
