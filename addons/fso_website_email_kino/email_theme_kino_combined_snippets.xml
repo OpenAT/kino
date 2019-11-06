@@ -92,8 +92,8 @@
                                                                                                                 valign="top">
                                                                                                                 <p class="kino_tiny"
                                                                                                                    style="text-align: right;">
-                                                                                                                    <a href="www.kino.at"
-                                                                                                                       data-cke-saved-href="www.kino.at"
+                                                                                                                    <a href="%open_browser%"
+                                                                                                                       data-cke-saved-href="%open_browser%"
                                                                                                                        target="_blank"
                                                                                                                        style="text-align: center; color: #b3b3b3; line-height: 19px; font-weight: 400; font-size: 12px; border-bottom-color: inherit;">
                                                                                                                         Webansicht
@@ -157,9 +157,12 @@
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top"
                                                                                                                 contenteditable="true">
+                                                                                                                <a href="https://www.kindernothilfe.at"
+                                                                                                                       target="_blank">
                                                                                                                 <img class="flexibleImage emailThemeHeaderLogo"
                                                                                                                      data-cke-saved-src="/fso_website_email_kino/static/src/img/logo_knh_white.png"
                                                                                                                      src="/fso_website_email_kino/static/src/img/logo_knh_white.png"/>
+                                                                                                                </a>
                                                                                                             </td>
                                                                                                         </tr>
                                                                                                     </tbody>
@@ -348,8 +351,11 @@
                                                                                                                 <td align="left"
                                                                                                                     class="imageContent ckediting_enabled"
                                                                                                                     valign="top">
+                                                                                                                    <a href="https://www.kindernothilfe.at"
+                                                                                                                       target="_blank">
                                                                                                                     <img class="flexibleImage emailThemeFooterLogo"
                                                                                                                          src="/fso_website_email_kino/static/src/img/logo_knh_black_big.png"/>
+                                                                                                                    </a>
                                                                                                                 </td>
                                                                                                             </tr>
                                                                                                         </tbody>
@@ -550,7 +556,7 @@
                                                                                                                         zu
                                                                                                                         lesen?
                                                                                                                         <br/>
-                                                                                                                        <a href="Zur%20Online-Version%20des%20Newsletters">
+                                                                                                                        <a href="%open_browser%">
                                                                                                                             Zur
                                                                                                                             Online-Version
                                                                                                                             des
@@ -578,7 +584,7 @@
                                                                                                                     mehr
                                                                                                                     erhalten?
                                                                                                                     <br/>
-                                                                                                                    <a href="http://kindernothilfe-at.knh-mail.email/t/r-u-jiaidjl-hrkjltijkh-j/"
+                                                                                                                    <a href="https://www.kindernothilfe.at/newsletterabmeldebest%C3%A4tigung.html"
                                                                                                                        style="color: #9ec9df; border-bottom-color: inherit;">
                                                                                                                         Vom
                                                                                                                         Newsletter
