@@ -90,6 +90,7 @@
 
 
             <body class="ckediting_disabled" contenteditable="false">
+                <span id="preheaderinfo" class="preheader">Kindernothilfe Österreich. Kindern Zukunft schenken.</span>
                 <!-- WRAP COMMON ASSETS AND BODY TAGS AROUND THEME 'kino' -->
                 <t t-call="fso_website_email.theme_body_common">
 

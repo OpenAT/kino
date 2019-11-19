@@ -213,3 +213,6 @@ p.kino_tiny {
     color: #0050a0;
 }
 
+span.preheader {
+    display: none !important;
+}

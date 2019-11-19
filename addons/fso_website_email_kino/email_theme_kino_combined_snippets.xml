@@ -354,7 +354,7 @@
                                                                                                                     <a href="https://www.kindernothilfe.at"
                                                                                                                        target="_blank">
                                                                                                                     <img class="flexibleImage emailThemeFooterLogo"
-                                                                                                                         src="/fso_website_email_kino/static/src/img/logo_knh_black_big.png"/>
+                                                                                                                         src="/fso_website_email_kino/static/src/img/logo_knh_black.png"/>
                                                                                                                     </a>
                                                                                                                 </td>
                                                                                                             </tr>
@@ -417,7 +417,7 @@
                                                                                                                         &amp;nbsp;
                                                                                                                     </p>
 
-                                                                                                                    <p>
+                                                                                                                    <p class="footerhelfenlinkbutton">
                                                                                                                         <a href="https://kindernothilfe-at.knh-mail.email/t/r-l-jiaidjl-hrkjltijkh-v/"
                                                                                                                            style="background-color: #0050a0; color: white; text-decoration: none; font-weight: 700; line-height: 14px; padding-top: 5px; padding-bottom: 5px; padding-right: 10px; padding-left: 10px; font-size: 14px;">
                                                                                                                             &gt;
@@ -586,7 +586,7 @@
                                                                                                                         erhalten?
                                                                                                                         <br/>
                                                                                                                         <a href="https://www.kindernothilfe.at/newsletterabmeldebest%C3%A4tigung.html"
-                                                                                                                           style="color: #9ec9df; border-bottom-color: inherit;">
+                                                                                                                           style="color: #0050a0; border-bottom-color: inherit;">
                                                                                                                             Vom
                                                                                                                             Newsletter
                                                                                                                             abmelden
@@ -826,8 +826,16 @@
                                                                                                 <td class="textContent ckediting_enabled">
                                                                                                     <h1 style="text-align: right;">
                                                                                                         <span style="color: rgb(0, 0, 0); font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                            <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Transparenz/Spendenabsetzbarkeit.html"
+                                                                                                                target="_blank"
+                                                                                                                style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
                                                                                                             <img src="/fso_website_email_kino/static/src/img/absetzbar.png"/>
+                                                                                                            </a>
+                                                                                                            <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Verein/Spendeng%C3%BCtesiegel.html"
+                                                                                                               target="_blank"
+                                                                                                                style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
                                                                                                             <img src="/fso_website_email_kino/static/src/img/guetesiegel.png"/>
+                                                                                                            </a>
                                                                                                         </span>
                                                                                                     </h1>
                                                                                                 </td>

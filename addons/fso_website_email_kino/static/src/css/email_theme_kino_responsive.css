@@ -18,11 +18,11 @@
 
     img.flexibleImage.emailThemeHeaderLogo {
     width: 115px;
-    height: 86px;
+    height: auto;
     }
     img.flexibleImage.emailThemeFooterLogo {
-    width: 110px;
-    height: 96px;
+    width: 115px;
+    height: auto;
     }
 
     #emailBody,

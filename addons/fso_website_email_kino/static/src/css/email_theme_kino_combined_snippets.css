@@ -1,10 +1,10 @@
 /* HEADER REWORKED */
 img.emailThemeHeaderLogo {
-    width: 92px;
+    width: 115px;
     height: auto;
 }
 img.emailThemeFooterLogo {
-    width: 92px;
+    width: 115px;
     height: auto;
 }
 #combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerLeft {
@@ -99,6 +99,11 @@ img.emailThemeFooterLogo {
 #combinedsnippetfooter .footer_header_part.kino_sb_bg_blue .contenTable p {
     color: #ffffff;
 }
+.footerhelfenlinkbutton a,
+.footerhelfenlinkbutton a:hover,
+.footerhelfenlinkbutton a:visited {
+    color: white !important;
+}
 #combinedheadersnippetfullwith.snippet_block.kino_sb_fg_blue,
 #combinedheadersnippetfullwith.snippet_block.kino_sb_fg_blue .contenTable,
 #combinedsnippetfooter .footer_header_part.kino_sb_fg_blue,
@@ -166,7 +171,7 @@ combinedsnippetfooter,
     padding-bottom: 40px;
 }
 #combinedsnippetfooter .infopart.snippet_block_text_image_left .flexibleContainerLeft img.flexibleImage {
-    width: 110px;
+    width: 115px;
 }
 
 #combinedsnippetfooter .snippet_block_text_twocol  table.flexibleContainerLeft,
