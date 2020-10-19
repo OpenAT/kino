@@ -79,6 +79,10 @@
                         <li data-value='kino_sb_fg_blue'><a>Blau</a></li>
                         <li data-value='kino_sb_fg_white'><a>White</a></li>
                         <li data-value='kino_sb_fg_kinogreen'><a>Kino Grün</a></li>
+                        <li data-value='kino_sb_fg_kinobrown'><a>Kino BRaun</a></li>
+                        <li data-value='kino_sb_fg_kinopink'><a>Kino Rosa</a></li>
+                        <li data-value='kino_sb_fg_kinolightblue'><a>Kino Hellblau</a></li>
+                        <li data-value='kino_sb_fg_kinoorange'><a>Kino Orange</a></li>
                         <li data-value='kino_sb_fg_background'><a>Background</a></li>
                     </ul>
                 </li>
@@ -91,6 +95,10 @@
                 <li data-value='kino_sb_bg_blue'><a>Blau</a></li>
                 <li data-value='kino_sb_bg_white'><a>White</a></li>
                 <li data-value='kino_sb_bg_kinogreen'><a>Kino Grün</a></li>
+                <li data-value='kino_sb_bg_kinobrown'><a>Kino Braun</a></li>
+                <li data-value='kino_sb_bg_kinopink'><a>Kino Rosa</a></li>
+                <li data-value='kino_sb_bg_kinolightblue'><a>Kino Hellblau</a></li>
+                <li data-value='kino_sb_bg_kinoorange'><a>Kino Orange</a></li>
                 <li data-value='kino_sb_bg_background'><a>Background</a></li>
             </ul>
         </xpath>

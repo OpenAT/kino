@@ -50,6 +50,34 @@ img.emailThemeFooterLogo {
 #combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable {
     background-color: #c4c700;
 }
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinoorange,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinoorange .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinoorange,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinoorange .contenTable {
+    background-color: #d57d24;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinopink,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinopink .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinopink,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinopink .contenTable {
+    background-color: #c85094;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinobrown,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinobrown .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinobrown,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinobrown .contenTable {
+    background-color: #a27646;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinolightblue,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinolightblue .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinolightblue,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinolightblue .contenTable {
+    background-color: #afd4e6;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinolightblue .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_bg_kinolightblue .contenTable p {
+    color: Black;
+}
 #combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable a,
 #combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen .contenTable p {
     color: #ffffff;
@@ -60,6 +88,34 @@ img.emailThemeFooterLogo {
 #combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen,
 #combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable {
     background-color: #c4c700;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinoorange,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinoorange .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinoorange,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinoorange .contenTable {
+    background-color: #d57d24;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinopink,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinopink .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinopink,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinopink .contenTable {
+    background-color: #c85094;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinobrown,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinobrown .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinobrown,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinobrown .contenTable {
+    background-color: #a27646;
+}
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinolightblue,
+#combinedheadersnippetfullwith.snippet_block.kino_sb_fg_kinolightblue .contenTable,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinolightblue,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinolightblue .contenTable {
+    background-color: #afd4e6;
+}
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinolightblue .contenTable a,
+#combinedsnippetfooter .footer_header_part.kino_sb_fg_kinolightblue .contenTable p {
+    color: black;
 }
 #combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable a,
 #combinedsnippetfooter .footer_header_part.kino_sb_fg_kinogreen .contenTable p {
