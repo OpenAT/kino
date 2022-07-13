@@ -243,3 +243,20 @@ footer h4 { font-size: 14px; }
     top: initial;
 }
 
+.btn-primary {
+    background-image: none;
+    color: #ffffff;
+    background-color: #0050a0;
+    border-color: #0050a0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#fsoforms_submit_button.btn-lg,
+#fsoforms_submit_button.btn-lg:hover {
+    color: #ffffff;
+    background-color: #0050a0;
+    border-color: #0050a0;
+    font-size: 15px;
+    font-weight: 400;
+}
