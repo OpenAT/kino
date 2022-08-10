@@ -44,6 +44,14 @@ img.emailThemeFooterLogo {
     /*background-color: #c4c700;*/
 }
 
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    background-color: rgb(229, 229, 226);
+}
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    background-color: rgb(229, 229, 226);
+}
 #combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinogreen,
 #combinedheadersnippetfullwith.snippet_block.kino_sb_bg_kinogreen .contenTable,
 #combinedsnippetfooter .footer_header_part.kino_sb_bg_kinogreen,
@@ -256,4 +264,12 @@ combinedsnippetfooter,
 .combinedfooter .footer_header_part .flexibleContainerCell {
     padding-top: 10px;
     padding-bottom: 5px;
+}
+
+#mediaiconsspecialsnippet.snippet_block a,
+#mediaiconsspecialsnippet.snippet_block a:hover,
+#mediaiconsspecialsnippet.snippet_block a:visited {
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: transparent;
 }

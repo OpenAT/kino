@@ -13,12 +13,174 @@
                 </li>
             </xpath>
 
-
             <!-- ======================= -->
             <!--  kino COMBINED SNIPPETS -->
             <!-- ======================= -->
             <xpath expr="//div[@id='snippet_email_special']" position="after">
                 <div id="combined_snippets_kino" class="tab-pane fade">
+
+                    <!-- media Icons extra SNIPPET BLOCK -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_kino/static/src/icons/mediasnippeticon_snippet.png"/>
+                            <span class="oe_snippet_thumbnail_title">Social Media Snippet</span>
+                        </div>
+                        <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_intro"
+                             id="mediaiconsspecialsnippet" contenteditable="false">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <h4 style="text-align: center;">
+                                                                                                <span style="color: #164f9f;">
+                                                                                                    Folgen Sie uns auf:
+                                                                                                </span>
+                                                                                            </h4>
+                                                                                        </td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="center"
+                                                                                            class="mediaicons imageContent ckediting_enabled"
+                                                                                            style="display: block;">
+                                                                                            <!-- Outlook Hacks -->
+                                                                                            <t t-set='outlook_comments'>
+                                                                                                <![CDATA[
+                                                                                            <!--[if (gte mso 9)]><table cellspacing="0" cellpadding="0"><tr><td><![endif]-->
+                                                                                             ]]>
+                                                                                            </t>
+                                                                                            <t t-raw="outlook_comments"/>
+                                                                                            <a data-cke-saved-href="https://www.facebook.com/KindernothilfeOesterreich"
+                                                                                               href="https://www.facebook.com/KindernothilfeOesterreich"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img src="/fso_website_email_kino/static/src/icons/Facebook.png"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     alt="Facebook Icon"
+                                                                                                     align="center"
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/>
+                                                                                            </a>
+                                                                                            <!-- Outlook Hacks -->
+                                                                                            <t t-set='outlook_comments'>
+                                                                                                <![CDATA[
+                                                                                            <!--[if (gte mso 9)]></td><td><![endif]-->
+                                                                                            ]]>
+                                                                                            </t>
+                                                                                            <t t-raw="outlook_comments"/>
+                                                                                            <a data-cke-saved-href="https://www.linkedin.com/company/kindernothilfe-%C3%B6sterreich"
+                                                                                               href="https://www.linkedin.com/company/kindernothilfe-%C3%B6sterreich"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img src="/fso_website_email_kino/static/src/icons/Instagram.png"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="Instagram Icon"
+                                                                                                     style="display: inline-block;border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                            <!-- Outlook Hacks -->
+                                                                                            <t t-set='outlook_comments'>
+                                                                                                <![CDATA[
+                                                                                            <!--[if (gte mso 9)]></td><td><![endif]-->
+                                                                                            ]]>
+                                                                                            </t>
+                                                                                            <t t-raw="outlook_comments"/>
+                                                                                            <a data-cke-saved-href="https://www.youtube.com/user/KindernothilfeAUT"
+                                                                                               href="https://www.youtube.com/user/KindernothilfeAUT"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img src="/fso_website_email_kino/static/src/icons/YouTube.png"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="Youtube Icon"
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                            <!-- Outlook Hacks -->
+                                                                                            <t t-set='outlook_comments'>
+                                                                                                <![CDATA[
+                                                                                            <!--[if (gte mso 9)]></td><td><![endif]-->
+                                                                                               ]]>
+                                                                                            </t>
+                                                                                            <t t-raw="outlook_comments"/>
+                                                                                            <a data-cke-saved-href="https://www.instagram.com/kindernothilfeoesterreich/"
+                                                                                               href="https://www.instagram.com/kindernothilfeoesterreich/"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img src="/fso_website_email_kino/static/src/icons/LinkedIn.png"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="LinkedIn Icon"
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                            <!-- Outlook Hacks -->
+                                                                                            <t t-set='outlook_comments'>
+                                                                                                <![CDATA[
+                                                                                            <!--[if (gte mso 9)]></td><td><![endif]-->
+                                                                                            <!--[if (gte mso 9)]></tr></table><![endif]-->
+                                                                            ]]>
+                                                                                            </t>
+                                                                                            <t t-raw="outlook_comments"/>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p>
+                                                                                                <h2 style="text-align: center;">
+                                                                                                    <span style="color: #164f9f;">
+                                                                                                        <a href="https://www.kindernothilfe.at/impressum">
+                                                                                                            Impressum
+                                                                                                        </a>
+                                                                                                        |
+                                                                                                        <a href="https://www.kindernothilfe.at/datenschutz">
+                                                                                                            Datenschutz
+                                                                                                        </a>
+                                                                                                    </span>
+                                                                                                </h2>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
                     <!-- HEADER SNIPPET BLOCK ALLG -->
                     <!-- =============== -->
@@ -159,7 +321,7 @@
                                                                                                                 contenteditable="true">
                                                                                                                 <a href="https://www.kindernothilfe.at"
                                                                                                                        target="_blank">
-                                                                                                                <img class="flexibleImage emailThemeHeaderLogo"
+                                                                                                                <img style="display:block;" class="flexibleImage emailThemeHeaderLogo"
                                                                                                                      data-cke-saved-src="/fso_website_email_kino/static/src/img/logo_knh_white.png"
                                                                                                                      src="/fso_website_email_kino/static/src/img/logo_knh_white.png"/>
                                                                                                                 </a>
@@ -219,10 +381,9 @@
                             <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
                         </div>
 
-                        <div class="oe_snippet_body ckediting_disabled kino_bin">
-
-                            <div id="combinedsnippetfooter" class="ckediting_enabled snippet_block combinedfooter">
-                                <div class="ckediting_enabled snippet_block snippet_block_text_twocol footer_header_part kino_sb_bg_kinogreen">
+                        <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_enabled kino_bin combinedfooter">
+                            <!--<div id="combinedsnippetfooter" class="ckediting_enabled combinedfooter">-->
+                                <div class="ckediting_disabled snippet_block snippet_block_text_twocol footer_header_part kino_sb_bg_kinogreen combinedfooter">
                                     <table cellpadding="0" cellspacing="0" class="centeringTable">
                                         <tbody>
                                             <tr>
@@ -353,7 +514,7 @@
                                                                                                                     valign="top">
                                                                                                                     <a href="https://www.kindernothilfe.at"
                                                                                                                        target="_blank">
-                                                                                                                    <img class="flexibleImage emailThemeFooterLogo"
+                                                                                                                    <img style="display:block;" class="flexibleImage emailThemeFooterLogo"
                                                                                                                          src="/fso_website_email_kino/static/src/img/logo_knh_black.png"/>
                                                                                                                     </a>
                                                                                                                 </td>
@@ -823,21 +984,19 @@
                                                                                            class="contentTable">
                                                                                         <tbody>
                                                                                             <tr>
-                                                                                                <td class="textContent ckediting_enabled">
-                                                                                                    <h1 style="text-align: right;">
-                                                                                                        <span style="color: rgb(0, 0, 0); font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
-                                                                                                            <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Transparenz/Spendenabsetzbarkeit.html"
-                                                                                                                target="_blank"
-                                                                                                                style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
-                                                                                                            <img src="/fso_website_email_kino/static/src/img/absetzbar.png"/>
-                                                                                                            </a>
-                                                                                                            <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Verein/Spendeng%C3%BCtesiegel.html"
-                                                                                                               target="_blank"
-                                                                                                                style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
-                                                                                                            <img src="/fso_website_email_kino/static/src/img/guetesiegel.png"/>
-                                                                                                            </a>
-                                                                                                        </span>
-                                                                                                    </h1>
+                                                                                                <td style="line-height: 1;" class="textContent ckediting_enabled">
+                                                                                                    <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Transparenz/Spendenabsetzbarkeit.html"
+                                                                                                       target="_blank"
+                                                                                                       style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
+                                                                                                        <img style="display: inline-block;"
+                                                                                                             src="/fso_website_email_kino/static/src/img/absetzbar.png"/>
+                                                                                                    </a>
+                                                                                                    <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Verein/Spendeng%C3%BCtesiegel.html"
+                                                                                                       target="_blank"
+                                                                                                       style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
+                                                                                                        <img style="display:inline-block;"
+                                                                                                             src="/fso_website_email_kino/static/src/img/guetesiegel.png"/>
+                                                                                                    </a>
                                                                                                 </td>
                                                                                             </tr>
                                                                                         </tbody>
@@ -855,7 +1014,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>
+                            <!--</div>-->
 
                         </div>
                     </div>
