@@ -65,7 +65,7 @@
                                                                                             <!-- Outlook Hacks -->
                                                                                             <t t-set='outlook_comments'>
                                                                                                 <![CDATA[
-                                                                                            <!--[if (gte mso 9)]><table cellspacing="0" cellpadding="0"><tr><td><![endif]-->
+                                                                                            <!--[if (gte mso 9)]><table cellspacing="10" cellpadding="0"><tr><td><![endif]-->
                                                                                              ]]>
                                                                                             </t>
                                                                                             <t t-raw="outlook_comments"/>
