@@ -929,10 +929,11 @@
                                                                                                                         Spendenkonto
                                                                                                                         Kindernothilfe
                                                                                                                         Österreich
-                                                                                                                        <br/>
+                                                                                                                        <br/><br/>
                                                                                                                         Erste
                                                                                                                         Bank
                                                                                                                         <br/>
+                                                                                                                        <strong>Kontodaten</strong><br/>
                                                                                                                         IBAN
                                                                                                                         AT142011131002803031
                                                                                                                         <br/>
@@ -984,19 +985,28 @@
                                                                                            class="contentTable">
                                                                                         <tbody>
                                                                                             <tr>
-                                                                                                <td style="line-height: 1;" class="textContent ckediting_enabled">
+                                                                                                <td align="right" style="line-height: 1;" class="spendensiegel textContent ckediting_enabled">
+                                                                                                    <table width="100%">
+                                                                                                    <tr>
+                                                                                                        <td class="absetzbar" align="left">
                                                                                                     <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Transparenz/Spendenabsetzbarkeit.html"
                                                                                                        target="_blank"
+                                                                                                       align="left"
                                                                                                        style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
                                                                                                         <img style="display: inline-block;"
                                                                                                              src="/fso_website_email_kino/static/src/img/absetzbar.png"/>
                                                                                                     </a>
+                                                                                                        </td><td class="guetesiegel" align="left">
                                                                                                     <a href="https://www.kindernothilfe.at/%C3%9Cber+uns/Verein/Spendeng%C3%BCtesiegel.html"
                                                                                                        target="_blank"
+                                                                                                       align="left"
                                                                                                        style="border-bottom-width: unset; border-bottom-style: unset; border-bottom-color: unset;">
                                                                                                         <img style="display:inline-block;"
                                                                                                              src="/fso_website_email_kino/static/src/img/guetesiegel.png"/>
                                                                                                     </a>
+                                                                                                    </td>
+                                                                                                    </tr>
+                                                                                                    </table>
                                                                                                 </td>
                                                                                             </tr>
                                                                                         </tbody>

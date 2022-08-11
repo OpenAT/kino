@@ -62,7 +62,19 @@
     }
 
     body #emailBody .snippet_block_text_image_left .flexibleContainerLeft {
-    min-height: inherit;
-}
+        min-height: inherit;
+    }
+    #combinedsnippetfooter .snippet_block_text_intro .spendensiegel td.absetzbar,
+    #combinedsnippetfooter .snippet_block_text_intro,
+    #combinedsnippetfooter .snippet_block_text_intro img,
+    #combinedsnippetfooter .snippet_block_text_intro a,
+    #combinedsnippetfooter .snippet_block_text_twocol,
+    #combinedsnippetfooter .snippet_block_text_twocol p,
+    #combinedsnippetfooter .snippet_block_text_image_left,
+    #combinedsnippetfooter .snippet_block_text_image_left p,
+    #combinedsnippetfooter .snippet_block_text_image_left img {
+        text-align: center !important;
+        margin: 0 auto;
+    }
 
 }
