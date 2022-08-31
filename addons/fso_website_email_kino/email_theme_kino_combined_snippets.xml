@@ -74,12 +74,12 @@
                                                                                                target="_blank"
                                                                                                style="text-decoration: none;">
                                                                                                 <img src="/fso_website_email_kino/static/src/icons/Facebook.png"
-                                                                                                     width="43"
+                                                                                                     width="32"
                                                                                                      vspace="10"
                                                                                                      hspace="10"
                                                                                                      alt="Facebook Icon"
                                                                                                      align="center"
-                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/>
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:32px height:32px max-width:32px margin-right:4px;"/>
                                                                                             </a>
                                                                                             <!-- Outlook Hacks -->
                                                                                             <t t-set='outlook_comments'>
@@ -93,12 +93,12 @@
                                                                                                target="_blank"
                                                                                                style="text-decoration: none;">
                                                                                                 <img src="/fso_website_email_kino/static/src/icons/Instagram.png"
-                                                                                                     width="43"
+                                                                                                     width="32"
                                                                                                      vspace="10"
                                                                                                      hspace="10"
                                                                                                      align="center"
                                                                                                      alt="Instagram Icon"
-                                                                                                     style="display: inline-block;border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                                     style="display: inline-block;border: 0px; outline: none; width:32px height:32px max-width: 32px margin-right: 4px;"/>
                                                                                             </a>
                                                                                             <!-- Outlook Hacks -->
                                                                                             <t t-set='outlook_comments'>
@@ -112,12 +112,12 @@
                                                                                                target="_blank"
                                                                                                style="text-decoration: none;">
                                                                                                 <img src="/fso_website_email_kino/static/src/icons/YouTube.png"
-                                                                                                     width="43"
+                                                                                                     width="32"
                                                                                                      vspace="10"
                                                                                                      hspace="10"
                                                                                                      align="center"
                                                                                                      alt="Youtube Icon"
-                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:32px height:32px max-width: 32px margin-right: 4px;"/>
                                                                                             </a>
                                                                                             <!-- Outlook Hacks -->
                                                                                             <t t-set='outlook_comments'>
@@ -131,12 +131,12 @@
                                                                                                target="_blank"
                                                                                                style="text-decoration: none;">
                                                                                                 <img src="/fso_website_email_kino/static/src/icons/LinkedIn.png"
-                                                                                                     width="43"
+                                                                                                     width="32"
                                                                                                      vspace="10"
                                                                                                      hspace="10"
                                                                                                      align="center"
                                                                                                      alt="LinkedIn Icon"
-                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:32px height:32px max-width: 32px margin-right: 4px;"/>
                                                                                             </a>
                                                                                             <!-- Outlook Hacks -->
                                                                                             <t t-set='outlook_comments'>
@@ -151,8 +151,7 @@
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
                                                                                             <p>
-                                                                                                <h2 style="text-align: center;">
-                                                                                                    <span style="color: #164f9f;">
+                                                                                                <h2 style="text-align: center; color: #164f9f;">
                                                                                                         <a href="https://www.kindernothilfe.at/impressum">
                                                                                                             Impressum
                                                                                                         </a>
@@ -160,7 +159,6 @@
                                                                                                         <a href="https://www.kindernothilfe.at/datenschutz">
                                                                                                             Datenschutz
                                                                                                         </a>
-                                                                                                    </span>
                                                                                                 </h2>
                                                                                             </p>
                                                                                         </td>
