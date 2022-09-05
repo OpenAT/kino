@@ -76,5 +76,8 @@
         text-align: center !important;
         margin: 0 auto;
     }
-
+    #combinedsnippetfooter #mediaiconsspecialsnippet.snippet_block_text_intro img {
+        margin: auto 5px !important;
+        padding: 5px !important;
+    }
 }
