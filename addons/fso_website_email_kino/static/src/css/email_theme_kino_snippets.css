@@ -100,40 +100,48 @@ img.flexibleImage.snippet_block_banner_image {
 /* Background and Foreground Options for Snippet Blocks */
 /* ---------------------------------------------------- */
 .kino_sb_bg_background .flexibleContainerCell,
-.kino_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_background .textContent {
     background-color: #e5e5e2;
 }
 .kino_sb_bg_blue .flexibleContainerCell,
-.kino_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_blue .textContent {
     /*background-color: #ab1455;*/
     background-color: #0050a0;
 }
 .kino_sb_bg_white .flexibleContainerCell,
-.kino_sb_fg_white .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_white .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_white .textContent {
     background-color: white;
 }
 .kino_sb_bg_kinogreen .flexibleContainerCell,
-.kino_sb_fg_kinogreen .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_kinogreen .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_kinogreen .textContent {
     /*background-color: #ab1455;*/
     background-color: #c4c700;
 }
 .kino_sb_bg_kinopink .flexibleContainerCell,
-.kino_sb_fg_kinopink .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_kinopink .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_kinopink .textContent {
     /*background-color: #ab1455;*/
     background-color: #c85094;
 }
 .kino_sb_bg_kinoorange .flexibleContainerCell,
-.kino_sb_fg_kinoorange .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_kinoorange .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_kinoorange .textContent {
     /*background-color: #ab1455;*/
     background-color: #d57d24;
 }
 .kino_sb_bg_kinolightblue .flexibleContainerCell,
-.kino_sb_fg_kinolightblue .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_kinolightblue .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_kinolightblue .textContent {
     /*background-color: #ab1455;*/
     background-color: #afd4e6;
 }
 .kino_sb_bg_kinobrown .flexibleContainerCell,
-.kino_sb_fg_kinobrown .flexibleContainerCell .nestedContainerCell {
+.kino_sb_fg_kinobrown .flexibleContainerCell .nestedContainerCell,
+.kino_sb_bg_kinobrown .textContent {
     /*background-color: #ab1455;*/
     background-color: #a27646;
 }
