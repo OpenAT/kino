@@ -262,3 +262,7 @@ footer h4 { font-size: 14px; }
     font-weight: 400;
     background-image: none;
 }
+
+#oe_main_menu_navbar .dropdown-menu > li > a {
+    color: #666;
+}
