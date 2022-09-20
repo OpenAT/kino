@@ -35,3 +35,7 @@ a[href="#editor-media-icon"] {
 .btn.btn-primary.hover-edition-button.btn-xs {
     width: auto;
 }
+
+.oe_options .dropdown-menu > li > a {
+    color: #666;
+}
