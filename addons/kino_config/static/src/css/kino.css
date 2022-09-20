@@ -263,6 +263,12 @@ footer h4 { font-size: 14px; }
     background-image: none;
 }
 
-#oe_main_menu_navbar .dropdown-menu > li > a {
+#oe_main_menu_navbar .dropdown-menu > li > a,
+.oe_options .dropdown-menu > li > a,
+.oe_options .dropdown-menu > li > a:hover{
     color: #666;
+}
+
+.oe_options .dropdown-menu > li.active > a {
+    color: white;
 }
