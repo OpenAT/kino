@@ -227,14 +227,14 @@
                                                                                                             <td align="left"
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 valign="top">
-                                                                                                                <p style="font-size: 12px; font-weight: 400; line-height: 19px; color: #333333;">
+                                                                                                                <p style="font-size: 12px; font-weight: 400; line-height: 19px; color: #333333;"><![CDATA[
                                                                                                                     Kindernothilfe
-                                                                                                                    Österreich.
+                                                                                                                    &Ouml;sterreich.
                                                                                                                     Kindern
                                                                                                                     Zukunft
                                                                                                                     schenken.
 
-                                                                                                                </p>
+                                                                                                                ]]></p>
                                                                                                             </td>
                                                                                                         </tr>
                                                                                                     </tbody>
@@ -415,14 +415,14 @@
                                                                                                                 <td align="center"
                                                                                                                     class="textContent ckediting_enabled"
                                                                                                                     valign="top">
-                                                                                                                    <p>
+                                                                                                                    <p><![CDATA[
                                                                                                                         Kindernothilfe
-                                                                                                                        Österreich.
+                                                                                                                        &Ouml;sterreich.
                                                                                                                         <br/>
                                                                                                                         Kindern
                                                                                                                         Zukunft
                                                                                                                         schenken.
-                                                                                                                    </p>
+                                                                                                                    ]]></p>
                                                                                                                 </td>
                                                                                                             </tr>
                                                                                                         </tbody>
@@ -438,11 +438,11 @@
                                                                                                                 <td align="center"
                                                                                                                     class="textContent ckediting_enabled"
                                                                                                                     valign="top">
-                                                                                                                    <p>
+                                                                                                                    <p><![CDATA[
 
                                                                                                                         Die
                                                                                                                         Kindernothilfe
-                                                                                                                        Österreich
+                                                                                                                        &Ouml;sterreich
                                                                                                                         <br/>
                                                                                                                         <a href="https://kindernothilfe-at.knh-mail.email/t/r-l-jiaidjl-hrkjltijkh-x/">
                                                                                                                             im
@@ -453,7 +453,7 @@
                                                                                                                             auf
                                                                                                                             Facebook
                                                                                                                         </a>
-                                                                                                                    </p>
+                                                                                                                    ]]></p>
                                                                                                                 </td>
                                                                                                             </tr>
                                                                                                         </tbody>
